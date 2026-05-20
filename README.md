@@ -35,10 +35,10 @@ Unlike traditional dotfile repositories that naively append blocks of text—cau
 
 [ Provisioning Phase ]                [ Configuration Handshake ]
 
-* Package Indexes Updated             - Clones/Pulls this Git Repo
-* Official Repos Registered           - Symlinks ~/.bashrc -> Repo
-* Core Tool Suite Installed           - Generates Managed Local File
-* Firewall & zRAM Enabled               (~/.bash_aliases_pro)
+* Package Indexes Updated              - Clones/Pulls this Git Repo
+* Official Repos Registered            - Symlinks ~/.bashrc -> Repo
+* Core Tool Suite Installed            - Generates Managed Local File
+* Firewall & zRAM Enabled                (~/.bash_aliases_pro)
 - Adds single "Stitch Line"
 to prevent duplicate logs
 
