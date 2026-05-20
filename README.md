@@ -1,6 +1,6 @@
 
 # 🚀 Pro-Spec Ubuntu Infrastructure Bootstrapper
-================================================
+
 
 A streamlined, declarative, and idempotent system initialization environment. This repository moves away from passive configuration files and serves as an automated Infrastructure-as-Code (IaC) baseline that transforms a bare Ubuntu server into a hardened, Docker-ready development environment in under 60 seconds.
 
@@ -104,10 +104,6 @@ source ~/.bashrc
 └── init_pro.sh     # Master automated provisioning engine
 
 ```
-
-```
-
-***
 
 ## 💡 Suggestions to Make Changes to your Repo
 
