@@ -18,7 +18,6 @@ Unlike traditional dotfile repositories that naively append blocks of text—cau
 3. **Idempotent Insertion:** The script scans your `.bashrc` for exactly *one* declaration: `[ -f ~/.bash_aliases_pro ] && source ~/.bash_aliases_pro`. If missing, it links it once. If present, it skips it—ensuring zero terminal configuration rot over multiple runs.
 
 
-```
 
 ```
   +-----------------------------------------+
