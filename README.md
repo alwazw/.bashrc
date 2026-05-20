@@ -76,22 +76,32 @@ chmod +x init_pro.sh
 
 ```
 
-> ⚠️ **Security Architecture Note:** This configuration intentionally abandons the dangerous passwordless `NOPASSWD:ALL` sudo rules. The script will securely request your administrative password *once* at launch, cache it safely for the loop execution, and complete the installation without compromising machine authority.
-
----
-
 ## 🛠️ Post-Installation Actions
 
 Once the execution log reports a clean, green exit status:
 
-1. **Reload your active environment profile:**
+1. **Create & Configure | .env  |  .secrets | **
+```bash
+cp .env ~/.env && cp .secrets ~/.secrets
+
+```
+
+2. **Reload your active environment profile:**
 ```bash
 source ~/.bashrc
 
 ```
 
+3. **Apply Security Group Mutations:
+**Finalize your user's administrative group mapping into the `docker` subsystem.
+```bash
+exit
 
-2. **Apply Security Group Mutations:** Log out and back into the machine to finalize your user's administrative group mapping into the `docker` subsystem.
+```
+
+---
+
+> ⚠️ **Security Architecture Note:** This configuration intentionally abandons the dangerous passwordless `NOPASSWD:ALL` sudo rules. The script will securely request your administrative password *once* at launch, cache it safely for the loop execution, and complete the installation without compromising machine authority.
 
 ---
 
