@@ -31,8 +31,6 @@ Unlike traditional dotfile repositories that naively append blocks of text—cau
    |                                       |
    v                                       v
 
-```
-
 [ Provisioning Phase ]                [ Configuration Handshake ]
 
 * Package Indexes Updated              - Clones/Pulls this Git Repo
