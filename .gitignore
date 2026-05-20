@@ -1,0 +1,8 @@
+# Cryptographic variable states
+.env.*
+.secrets.*
+
+# Operating system transient caches
+.DS_Store
+Thumbs.db
+*.log
