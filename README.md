@@ -6,6 +6,8 @@ A streamlined, declarative, and idempotent system initialization environment. Th
 
 ---
 
+
+
 ## 🛠️ System Architecture & Logic Flow
 
 Unlike traditional dotfile repositories that naively append blocks of text—causing configuration bloat and duplicates—this system uses a **Single Stitch Include Pattern**.
